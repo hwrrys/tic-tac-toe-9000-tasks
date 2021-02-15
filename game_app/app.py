@@ -6,7 +6,7 @@ from game_engine import TicTacToeGame, TicTacToeGameInfo, TicTacToeTurn
 class TicTacToeApp:
     def __init__(self):
         """пока не знаю, мб что-то ещё тут будет :)
-        в обоих случаях айдишник - ключ, значение - угадайте, что)"""
+        айдишник - ключ, значение - угадайте, что)"""
         self._games: Dict[str, TicTacToeGame] = {}
 
     def start_game(self, first_player_id: str, second_player_id: str) -> TicTacToeGameInfo:
