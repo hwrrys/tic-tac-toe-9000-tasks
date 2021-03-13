@@ -54,6 +54,7 @@ class TicTacToeGame(AbstractTicTacToeGame):
             return
 
         field = self.get_game_info().field
+        draw = True
 
         for i in range(3):
             row1 = []
@@ -76,7 +77,6 @@ class TicTacToeGame(AbstractTicTacToeGame):
 
         row1 = []
         row2 = []
-        draw = True
 
         for i in range(3):
             row1.append(field[i][i])

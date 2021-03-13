@@ -58,7 +58,7 @@ def test_1():
         ],
         first_player_id="Petya",
         second_player_id="Vasya",
-        winner_id="Draw"
+        winner_id="draw"
     )
     assert app.get_game_by_id(game_id_PV2) == TicTacToeGameInfo(
         game_id = game_id_PV2,
